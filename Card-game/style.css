@@ -1,0 +1,106 @@
+
+.container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: auto;
+    width: 100%;
+    gap: 2rem;
+    
+}
+
+ .name{
+    font-size: 3rem;
+    height: auto;
+    width: 60%;
+    padding: 25px;
+ }
+
+ #guide{
+   padding: 5px;
+   border-radius: 5px;
+   background-color: rgb(255, 160, 66);
+   width: fit-content;
+   height: 25px;
+ }
+
+ #restart{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(255, 160, 66);
+    width: fit-content;
+    height: 25px;
+ }
+
+.card_open{
+    padding: 10px;
+    width: 120px;
+    height: 200px;
+    background-image: linear-gradient(to right, rgb(161, 227, 238), rgb(232, 198, 198));;
+    font-size: 20px;
+    font-weight: bold;
+ }
+
+ .card{
+    padding: 10px;
+    width: 120px;
+    height: 200px;
+    font-size: 20px;
+    background-image: url('fruits.jpg');
+    background-size: contain;
+    text-indent: -9999px;
+ }
+
+
+ #cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:10px;
+    margin: 0;
+ }
+
+ #description{
+   width: 60vw;
+   margin: 0;
+   padding: 60px;
+   font-size: 40px;
+   background-color: goldenrod;
+   border-radius: 30px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: auto;
+   gap: 5px;
+   font-size: 25px;
+   text-overflow: inherit;
+ }
+ 
+ .main-container{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: rgb(237, 188, 119);
+   gap: 10px;
+   padding: 15px;
+ }
+
+
+ #close{
+   padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(255, 160, 66);
+    width: fit-content;
+    height: 25px;
+ }
+
+ .hide{
+   display: none !important;
+ }
